@@ -1,0 +1,38 @@
+.gridLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .paperStyle {
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (min-width: 768px) {
+   
+    .gridLogin {
+      height: 100vh;
+    }
+    
+    .paperStyle {
+      width: 70%;
+      max-width: 500px;
+    }
+  }
+  
+.titleLogin {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 7vh;
+    color: #303F9F;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sono', sans-serif;
+  }

@@ -1,0 +1,20 @@
+.containerHeader{
+    height: 150px;
+    background-color: #3867d6;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.welcome{
+    margin-left: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sono', sans-serif;
+    color:  #fff;
+    margin-bottom: 50px;
+}
+
+
+.buttonText{
+    color:  #fff
+}
