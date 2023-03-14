@@ -97,8 +97,8 @@ export default function Dashboard() {
       placeholder="Ano final"
     />
 
-  <Button variant="contained" color="primary" onClick={handleBuscarClick} className="send">
-    Buscar
+  <Button variant="contained" color="primary" onClick={handleBuscarClick} className="send" disabled={loading}>
+  {loading ? 'Buscando...' : 'Buscar'}
   </Button>
   
   </div>
