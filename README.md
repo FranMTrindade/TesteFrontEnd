@@ -6,4 +6,4 @@ Foi desenvolvida a aplicação TesteFrontEnd que possui duas páginas, uma pági
 
 # Bibliotecas 
 
-Além das das que foram apresentadas no desafio, foi utilizado apenas a biblioteca React-Toastify para apresentar mensagens de erros, alertas e sucesso, também foi utulizado a biblioteca react-router-dom para fazer rotas da aplicação.
+Além das das que foram apresentadas no desafio, foi utilizado apenas a biblioteca React-Toastify para apresentar mensagens de erros, alertas e sucesso, também foi utulizado a biblioteca react-router-dom para fazer rotas da aplicação e a react-spinners para fazer as animações do loading.
