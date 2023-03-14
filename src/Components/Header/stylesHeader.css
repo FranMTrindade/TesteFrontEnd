@@ -6,6 +6,12 @@
     
 }
 
+@media(max-width: 550px){
+    .containerHeader{
+        height: 200px;
+    }
+}
+
 .welcome{
     margin-left: 5%;
     font-family: 'Roboto', sans-serif;

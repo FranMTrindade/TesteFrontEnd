@@ -1,0 +1,101 @@
+.painel{
+  margin-left: 25%;
+  height: 200px;
+}
+
+@media (max-width: 550px) {
+  .painel{
+    width: 310px;
+    margin-left: 0;
+  }
+
+  .busca{
+    margin-left: -20%;
+  }
+}
+
+.painel2{
+  height: 550px;
+  width: 80%;
+  margin-left: 10%;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .painel2{
+    width: 80%;
+    margin-left: 0;
+  }
+ 
+}
+
+
+
+  .month{
+    color: #3867d6;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+ 
+
+  .busca{  
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-indent: 10px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #3867d6;
+  }
+
+ .send{
+  width: 15%;
+
+ }
+
+  .total{
+    font-weight: bold;
+    text-align: center;
+    color: #20bf6b;
+    font-size: 25px;
+    margin-top: 50px;
+  }
+
+
+  .loading{
+    margin-left: 45%;
+  }
+
+  .totalPeriodo{
+    font-size: 35px;
+    color:#3867d6;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .total{
+    text-align: center;
+  }
+
+  .nPedidos{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .dPedidos{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #696969;
+  }
+  
+  ul, li {
+    list-style: none;
+  }
+
+
+  .pesquisar{
+    margin-top: 2%;
+    margin-left: 40%;
+  }

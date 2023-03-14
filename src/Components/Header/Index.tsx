@@ -16,7 +16,7 @@ export default function Header(){
         <header>
             <div className='containerHeader'>
                 <h1 className='welcome'>Controle de Pedidos</h1>
-                <Button type="submit" onClick={signOut} className="send"><h1 className='buttonText'>Sair</h1></Button>
+                <Button type="submit" onClick={signOut}><h1 className='buttonText'>Sair</h1></Button>
             </div>
         </header>
     )
