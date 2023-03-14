@@ -82,7 +82,7 @@ export default function Login({ setIsLoggedIn }: LoginProps) {
         <Button type='submit' color='primary' variant='contained' fullWidth onClick={handleLogin} disabled={isLoading}>{isLoading ? (
     <ClipLoader
       size={20}
-      color={"#ffffff"}
+      color={"#303F9F;"}
       loading={isLoading}
     />
   ) : (
